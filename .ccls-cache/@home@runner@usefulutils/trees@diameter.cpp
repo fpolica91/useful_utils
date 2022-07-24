@@ -4,7 +4,7 @@
 using namespace std;
 
 /**
-  diameter is the longest path between two end nodes
+  diameter is the longest path between two end nodes;
   */
 void diameter(Node *root, int &result){
   if(!root) return;
