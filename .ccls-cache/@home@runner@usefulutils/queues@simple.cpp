@@ -30,7 +30,9 @@ void queue_stl() {
   for (auto x : nums)
     // dq.push_front()
     dq.push_back(x);
-  while(!dq.empty()){
-    cout << "Fr"
+  while (!dq.empty()) {
+    cout << "front elem: " << dq.front();
+    cout << "back elem: " << dq.back();
+    dq.pop_back();
   }
 }
