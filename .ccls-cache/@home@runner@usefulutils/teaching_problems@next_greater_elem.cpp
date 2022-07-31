@@ -23,7 +23,7 @@ vector<int> next_greatest(vector<int> input) {
     } else {
       ans[i] = s.top();
     }
-    // push current as potential
+    // push current as potential answer
     s.push(input[i]);
   }
 
