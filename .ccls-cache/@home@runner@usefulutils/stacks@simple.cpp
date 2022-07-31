@@ -14,10 +14,14 @@ using namespace std;
   s.size();
 */
 
-int main() {
+void stack_stl() {
   stack<int> s;
   vector<int> nums = {1, 2, 3, 4, 5, 6};
   for (auto x : nums) {
+    s.push(x);
   }
-  return 0;
+  while (!s.empty()) {
+    cout << s.top() << " ";
+    s.pop();
+  }
 }
