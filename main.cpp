@@ -1,6 +1,5 @@
 // Example C++17 program using fold expressions copied from:
 // https://www.modernescpp.com/index.php/cpp17-core
-//
 // foldExpressionAll.cpp
 
 #include <bits/stdc++.h>
